@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
   margin: 0;
   padding: 0;
@@ -147,3 +148,73 @@
   font-size: 30px;
   background-color: yellow;
 }
+=======
+body {
+  margin: 0px;
+}
+
+.animal {
+  color: aliceblue;
+  text-align: center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.container {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(90deg, hsl(330, 70%, 75%), hsl(240, 63%, 66%));
+}
+
+.boxCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  gap: 2%;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background: HSLA(0, 50%, 100%, 0.2);
+  width: 100%;
+  height: auto;
+  margin: 2%;
+  font-size: 1.25rem;
+  border-radius: 10px;
+}
+
+.summary {
+  padding-bottom: 20px;
+}
+.box1 {
+  height: 70%;
+}
+.box2 {
+  height: 80%;
+}
+.box3 {
+  height: 65%;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid HSLA(0, 50%, 10%, 0.2);
+}
+.content {
+  text-align: center;
+  padding: 0 25px 0 25px;
+}
+
+button {
+  background-color: yellow;
+  width: 100%;
+  height: 10%;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.25rem;
+}
+
+>>>>>>> 7b3e6be68b40e6d1e3583931c90bc725e104324d
