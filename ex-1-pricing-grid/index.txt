@@ -1,0 +1,70 @@
+
+  <body>
+    <div class="box-choice">
+      <div class="cat-choice">
+        <div class="้head-cat">
+          <h1>cat</h1>
+        </div>
+        <div class="cat-inside">
+          <h2>common, yet regarded by many as the worst house pet</h2>
+          <h2>Scartches everything</h2>
+          <hr />
+          <h2>Easily lost for days</h2>
+          <hr />
+          <h2>Kind of a bummer</h2>
+        </div>
+        <div>
+          <h3 class="highlight-cat">free</h3>
+        </div>
+        <div>
+          <button class="bot-cat">🐱Really?</button>
+        </div>
+      </div>
+
+      <div class="dog-choice">
+        <div class="้head-dog">
+          <h1>dog</h1>
+        </div>
+        <div class="dog-inside">
+          <h2>
+            Loving, gentle and caring. Dogs are the best house pet to have and
+            will increase happiness ten fold.
+          </h2>
+          <h2>Super Fun</h2>
+          <hr />
+          <h2>Friends love them</h2>
+          <hr />
+          <h2>Plays games</h2>
+          <hr />
+          <h2>No a cat</h2>
+        </div>
+        <div>
+          <h3 class="highlight-dog">$90</h3>
+        </div>
+        <div>
+          <button class="bot-dog">🐶Best Deal?</button>
+        </div>
+      </div>
+
+      <div class="fish-choice">
+        <div class="้head-fish">
+          <h1>fish</h1>
+        </div>
+        <div class="fish-inside">
+          <h2>Cheap n' easy</h2>
+          <h2>Eats flakes</h2>
+          <hr />
+          <h2>Cop out</h2>
+          <hr />
+          <h2>Replaceable</h2>
+        </div>
+        <div>
+          <h3 class="highlight-fish">$3</h3>
+        </div>
+        <div>
+          <button class="bot-fish">🐟</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
