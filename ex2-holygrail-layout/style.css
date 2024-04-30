@@ -7,6 +7,7 @@
     background-color: rgb(15, 105, 86);
     margin: 2px;
     text-align: center;
+    align-content: center;
 }
 .yellow {
     height: 70vh;
@@ -14,25 +15,33 @@
     flex-direction: row;
     justify-content: flex-start;
     gap: 2px;
+    align-content: center;
 }
 #nav {
     padding: 40px;
     background-color: rgb(246, 173, 56);
-    flex: 2;
+    flex: 1;
+    align-content: center;
+
 }
 #content{
     padding: 40px;
     background-color: rgb(246, 173, 56);
-    flex: 6;
+    flex: 2;
+    text-align: center;
+    align-content: center;
 }
 #adver{
     padding: 40px;
     background-color: rgb(246, 173, 56);
-    flex: 2;
+    flex: 1;
+    text-align: center;
+    align-content: center;
 }
 .foot {
     background-color: rgb(238, 205, 163);
     width: 100%;
     height: 10vh;
     text-align: center;
+    align-content: center;
 }
