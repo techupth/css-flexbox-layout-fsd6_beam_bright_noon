@@ -24,7 +24,6 @@ header {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  /* margin: 3px 0; */
   gap: 1px;
   margin: 1px;
 }
@@ -34,17 +33,9 @@ header {
   justify-content: center;
   align-items: center;
   height: 100%;
-  -ms-flex: 1; /* IE 10 */
+  -ms-flex: 1;
   flex: 1;
   background-color: orange;
-}
-
-.navbar,
-.content,
-.ad {
-  /* display: flex; */
-  /* justify-content: center;
-  align-content: center; */
 }
 
 footer {
