@@ -1,1 +1,56 @@
-/* Start coding here */
+body {
+  margin: 0px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+header {
+  height: 10%;
+  background-color: teal;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainSection {
+  height: 80%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* margin: 3px 0; */
+  gap: 1px;
+  margin: 1px;
+}
+
+.mainSection div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  -ms-flex: 1; /* IE 10 */
+  flex: 1;
+  background-color: orange;
+}
+
+.navbar,
+.content,
+.ad {
+  /* display: flex; */
+  /* justify-content: center;
+  align-content: center; */
+}
+
+footer {
+  height: 10%;
+  background-color: khaki;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
