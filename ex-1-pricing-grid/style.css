@@ -1,1 +1,10 @@
-/* Start coding here */
+.box-choice {
+  display: block, flex;
+  flex-direction: column;
+  background-image: linear-gradient(50, rgb(255, 192, 203), rgb(103, 190, 252));
+}
+
+.cat-choice {
+  display: block, flex;
+  flex-direction: column;
+}
