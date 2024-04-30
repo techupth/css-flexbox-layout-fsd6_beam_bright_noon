@@ -1,1 +1,38 @@
-/* Start coding here */
+*{
+    margin: 0;
+}
+.green{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(15, 105, 86);
+    margin: 2px;
+    text-align: center;
+}
+.yellow {
+    height: 70vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 2px;
+}
+#nav {
+    padding: 40px;
+    background-color: rgb(246, 173, 56);
+    flex: 2;
+}
+#content{
+    padding: 40px;
+    background-color: rgb(246, 173, 56);
+    flex: 6;
+}
+#adver{
+    padding: 40px;
+    background-color: rgb(246, 173, 56);
+    flex: 2;
+}
+.foot {
+    background-color: rgb(238, 205, 163);
+    width: 100%;
+    height: 10vh;
+    text-align: center;
+}
